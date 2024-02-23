@@ -1,6 +1,13 @@
 @startuml pow
 
-class Pow
+class Pow{
+    - color
+    - tamaño
+    - porcentajeSalud
+    + Comer()
+    + Cagar()
+    + Duchar()
+}
 class Juego
 class JuegoPelota
 class Pelota
@@ -38,6 +45,5 @@ Moneda <|-- Higiene
 Juego <|-- JuegoPatineta
 Juego <|-- JuegoCarro
 Moneda <|-- Juego
-
 
 @enduml
